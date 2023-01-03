@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import HomeIcon from '@mui/icons-material/Home';
 
 class Navbar extends Component {
   render() {
@@ -14,8 +15,8 @@ class Navbar extends Component {
               }}
               className="col s5 brand-logo center black-text"
             >
-              <i className="material-icons">code</i>
-              MERN
+              <HomeIcon className="svg_icons" fontSize="large"/>
+              
             </Link>
           </div>
         </nav>
